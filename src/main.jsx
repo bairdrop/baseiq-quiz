@@ -1,28 +1,36 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import QuizApp from './QuizApp'
+import React, { useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
+import QuizApp from './QuizApp';
+import { sdk } from '@farcaster/miniapp-sdk'; // ✅ import SDK directly
 
-const root = document.getElementById('root')
+const AppWrapper = () => {
+  useEffect(() => {
+    const init = async () => {
+      try {
+        // Wait until React renders the first frame
+        await new Promise(resolve => setTimeout(resolve, 300));
 
+        // ✅ Tell the Farcaster MiniApp SDK that we’re ready
+        await sdk.actions.ready();
+        console.log('✅ BaseIQ Quiz ready!');
+      } catch (err) {
+        console.error('Error calling sdk.actions.ready:', err);
+      }
+    };
+
+    init();
+  }, []);
+
+  return <QuizApp />;
+};
+
+const root = document.getElementById('root');
 if (!root) {
-  throw new Error('Root element not found')
-}
-
-// CRITICAL: Tell Base Mini App that we're ready
-if (typeof window !== 'undefined') {
-  // Check if SDK exists (when running in Base app)
-  if (window.sdk && window.sdk.actions && window.sdk.actions.ready) {
-    window.sdk.actions.ready();
-  }
-  
-  // Also try this format
-  if (window.parent && window.parent.postMessage) {
-    window.parent.postMessage({ type: 'ready' }, '*');
-  }
+  throw new Error('Root element not found');
 }
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <QuizApp />
+    <AppWrapper />
   </React.StrictMode>
-)
+);
