@@ -9,9 +9,19 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors *"
+          "value": "frame-ancestors *; connect-src 'self' https://baseiq-seven.vercel.app"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "interest-cohort=()"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/v2/:path*",
+      "destination": "/404"
     }
   ]
 }
