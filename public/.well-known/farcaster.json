@@ -6,13 +6,7 @@
     "homeUrl": "https://baseiq-seven.vercel.app/",
     "imageUrl": "https://baseiq-seven.vercel.app/hero.png",
     "buttonTitle": "START NOW",
-    "splashImageUrl": "https://baseiq-seven.vercel.app/icon.png",
-    "splashBackgroundColor": "#000000",
-    "subtitle": "test your Base brainpower.",
     "description": "BaseIQ - Test your knowledge about Base blockchain",
-    "screenshotUrls": [
-      "https://baseiq-seven.vercel.app/screenshot.png"
-    ],
     "primaryCategory": "utility",
     "tags": [
       "game",
@@ -20,12 +14,7 @@
       "base",
       "baseapp",
       "miniapp"
-    ],
-    "heroImageUrl": "https://baseiq-seven.vercel.app/hero.png",
-    "tagline": "test your Base brainpower.",
-    "ogTitle": "test your Base brainpower.",
-    "ogDescription": "BaseIQ - Test your knowledge about Base blockchain",
-    "ogImageUrl": "https://baseiq-seven.vercel.app/hero.png"
+    ]
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjUyNjk5NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ4YURERTk1ZkY1OGNjQzRBRTkxYjM3YzY4NkVmQTA3OTFhMDUxMDcifQ",
