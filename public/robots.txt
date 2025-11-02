@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block analytics crawlers
+User-agent: DatadogAgent
+Disallow: /
+
+User-agent: CoinbaseBot
+Disallow: /
