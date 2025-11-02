@@ -5,7 +5,7 @@
     "signature": "0Y7W6Fv05SKmv/oazJIPXUwZlrjFfcHcWNQKyVh6ogRiarUxKBVfVZ2CHhxNVbL09fbV5ixbIbiIDmq4cNor6xw="
   },
   "frame": {
-  "name": "BaseIQ",
+    "name": "BaseIQ",
     "version": "1",
     "iconUrl": "https://baseiq-seven.vercel.app/icon.png",
     "homeUrl": "https://baseiq-seven.vercel.app/",
@@ -17,5 +17,6 @@
     "description": "BaseIQ - Test your knowledge about Base blockchain",
     "screenshotUrls": [
       "https://baseiq-seven.vercel.app/screenshot.png"
-  
+    ]
+  }
 }
