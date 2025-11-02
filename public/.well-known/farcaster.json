@@ -1,0 +1,16 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "BaseIQ",
+    "iconUrl": "https://baseiq-quiz.vercel.app/icon.png",
+    "splashImageUrl": "https://baseiq-quiz.vercel.app/hero.png",
+    "splashBackgroundColor": "#000000",
+    "homeUrl": "https://baseiq-quiz.vercel.app",
+    "imageUrl": "https://baseiq-quiz.vercel.app/hero.png"
+  }
+}
