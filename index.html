@@ -2,22 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>BaseIQ - Test Your Base Knowledge</title>
     <meta name="description" content="Test your knowledge about Base blockchain with BaseIQ quiz app" />
     
-    <!-- Open Graph / Social Media -->
+    <!-- Open Graph -->
     <meta property="og:title" content="BaseIQ - Test Your Base Knowledge" />
-    <meta property="og:description" content="Test your knowledge about Base blockchain with BaseIQ quiz app" />
+    <meta property="og:description" content="Test your knowledge about Base blockchain" />
     <meta property="og:image" content="https://baseiq-seven.vercel.app/hero.png" />
     <meta property="og:url" content="https://baseiq-seven.vercel.app" />
     <meta property="og:type" content="website" />
     
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="BaseIQ - Test Your Base Knowledge" />
-    <meta name="twitter:description" content="Test your knowledge about Base blockchain" />
-    <meta name="twitter:image" content="https://baseiq-seven.vercel.app/hero.png" />
+    <!-- Farcaster Frame -->
+    <meta property="fc:frame" content="vNext" />
+    <meta property="fc:frame:image" content="https://baseiq-seven.vercel.app/hero.png" />
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #000000;
+        overflow-x: hidden;
+      }
+      #root {
+        min-height: 100vh;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
