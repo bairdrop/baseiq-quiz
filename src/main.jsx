@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom/client'
 import QuizApp from './QuizApp'
 
 const root = document.getElementById('root')
-if (root) {
-  ReactDOM.createRoot(root).render(
-    <QuizApp />
-  )
-} else {
-  console.error('Root element not found')
+
+if (!root) {
+  throw new Error('Root element not found')
 }
+
+ReactDOM.createRoot(root).render(<QuizApp />)
