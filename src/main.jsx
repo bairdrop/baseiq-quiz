@@ -8,4 +8,17 @@ if (!root) {
   throw new Error('Root element not found')
 }
 
-ReactDOM.createRoot(root).render(<QuizApp />)
+// Suppress external analytics errors
+window.addEventListener('error', (e) => {
+  if (e.message.includes('AnalyticsSDKApiError') || 
+      e.message.includes('coinbase.com')) {
+    e.preventDefault();
+    console.warn('External analytics blocked, continuing app...');
+  }
+});
+
+ReactDOM.createRoot(root).render(
+  <React.StrictMode>
+    <QuizApp />
+  </React.StrictMode>
+)
