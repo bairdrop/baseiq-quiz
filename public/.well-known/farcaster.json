@@ -3,18 +3,12 @@
     "name": "BaseIQ",
     "version": "1",
     "iconUrl": "https://baseiq-seven.vercel.app/icon.png",
-    "homeUrl": "https://baseiq-seven.vercel.app/",
+    "homeUrl": "https://baseiq-seven.vercel.app",
     "imageUrl": "https://baseiq-seven.vercel.app/hero.png",
     "buttonTitle": "START NOW",
     "description": "BaseIQ - Test your knowledge about Base blockchain",
     "primaryCategory": "utility",
-    "tags": [
-      "game",
-      "quiz",
-      "base",
-      "baseapp",
-      "miniapp"
-    ]
+    "tags": ["game", "quiz", "base"]
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjUyNjk5NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ4YURERTk1ZkY1OGNjQzRBRTkxYjM3YzY4NkVmQTA3OTFhMDUxMDcifQ",
