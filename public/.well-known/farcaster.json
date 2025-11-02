@@ -1,9 +1,4 @@
 {
-  "accountAssociation": {
-    "header": "eyJmaWQiOjUyNjk5NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ4YURERTk1ZkY1OGNjQzRBRTkxYjM3YzY4NkVmQTA3OTFhMDUxMDcifQ",
-    "payload": "eyJkb21haW4iOiJiYXNlaXEtc2V2ZW4udmVyY2VsLmFwcCJ9",
-    "signature": "0Y7W6Fv05SKmv/oazJIPXUwZlrjFfcHcWNQKyVh6ogRiarUxKBVfVZ2CHhxNVbL09fbV5ixbIbiIDmq4cNor6xw="
-  },
   "frame": {
     "name": "BaseIQ",
     "version": "1",
@@ -17,6 +12,24 @@
     "description": "BaseIQ - Test your knowledge about Base blockchain",
     "screenshotUrls": [
       "https://baseiq-seven.vercel.app/screenshot.png"
-    ]
+    ],
+    "primaryCategory": "games",
+    "tags": [
+      "game",
+      "quiz",
+      "base",
+      "baseapp",
+      "miniapp"
+    ],
+    "heroImageUrl": "https://baseiq-seven.vercel.app/hero.png",
+    "tagline": "test your Base brainpower.",
+    "ogTitle": "test your Base brainpower.",
+    "ogDescription": "BaseIQ - Test your knowledge about Base blockchain",
+    "ogImageUrl": "https://baseiq-seven.vercel.app/hero.png"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjUyNjk5NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ4YURERTk1ZkY1OGNjQzRBRTkxYjM3YzY4NkVmQTA3OTFhMDUxMDcifQ",
+    "payload": "eyJkb21haW4iOiJiYXNlaXEtc2V2ZW4udmVyY2VsLmFwcCJ9",
+    "signature": "0Y7W6Fv05SKmv/oazJIPXUwZlrjFfcHcWNQKyVh6ogRiarUxKBVfVZ2CHhxNVbL09fbV5ixbIbiIDmq4cNor6xw="
   }
 }
