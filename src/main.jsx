@@ -7,12 +7,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <QuizApp />
   </React.StrictMode>,
 )
-```
-
-**File 5: `src/QuizApp.jsx`** - Copy the entire React code from the artifact above
-
-**File 6: `.gitignore`**
-```
-node_modules
-dist
-.env
